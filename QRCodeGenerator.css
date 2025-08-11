@@ -1,0 +1,148 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        
+        .qr-wrapper {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        
+        #qrcode {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: white;
+        }
+        
+        .code-section {
+            margin: 20px 0;
+        }
+        
+        .code-label {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 8px;
+        }
+        
+        .code-value {
+            font-size: 28px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+            padding: 12px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        
+        .timer {
+            font-size: 13px;
+            color: #e74c3c;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 25px 0;
+        }
+        
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .generate-btn {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .copy-btn {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+        
+        button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .copy-btn.copied {
+            background-color: #2ecc71;
+            color: white;
+        }
+        
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #7f8c8d;
+            text-align: left;
+            margin-top: 20px;
+        }
+        
+        .instructions h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .instructions ol {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 5px;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #bdc3c7;
+        }
